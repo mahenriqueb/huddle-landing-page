@@ -1,0 +1,74 @@
+@media (max-width: 1255px) {
+    .container {
+        display: block;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .container .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer nav ul{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background: url('../images/bg-mobile.svg')no-repeat;
+        background-color: var(--primary);
+        background-size: 100%
+    }
+
+    .header {
+        padding: 30px 15px 20px;
+    }
+
+    .header img {
+        width: 150px;
+    }
+
+    .container{
+        margin-bottom: 40px;
+    }
+
+    .container .info {
+        margin-top: 30px;
+    }
+
+    .container .info h1 {
+        font-size: 24px;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .container .info p {
+        font-size: 17px;
+        width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .container .info .btn-register{
+        width: 250px;
+    }
+
+    .footer nav ul{
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .footer nav ul li a{
+        font-size: 1.5rem;
+        width: 30px; 
+        height: 30px;
+    }
+}
